@@ -20,7 +20,10 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-
+ul{
+	list-style: none;
+	padding: 0;
+}
 .site-title {
 	background-color: #F2F2F2;
 	padding: 4%;
@@ -52,7 +55,6 @@ body {
 	display: inline-block;
 	vertical-align: middle;
 	font-weight: 300;
-	margin-left: 5%;
 	margin-bottom: 40px;
 }
 p.about-text {
