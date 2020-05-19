@@ -47,6 +47,7 @@ body {
 	vertical-align: middle;
 	}
 .about .about-text{
+	padding: 20px;
 	display: inline-block;
 	vertical-align: middle;
 	font-weight: 300;
@@ -54,14 +55,9 @@ body {
 }
 
 ul {
-	list-style: none;
+	list-style-type: none;
 	padding: 0;
 }
-
-li {
-	list-style: none;
-}
-
 .pic{
 	display: inline-block;
 	position: relative;
