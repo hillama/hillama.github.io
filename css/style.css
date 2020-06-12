@@ -2,7 +2,7 @@
 
 html {
 	font-size: 62.5%;
-	background-color: #E0E0E0;
+	background-color: #f0f1f4;
 }
 
 *, *::before, *::after {
@@ -10,21 +10,27 @@ html {
 }
 
 a {
-	color: #000;
+	transition: 1.0s;
+	color: #2c3632;
+}
+
+a:hover {
+	color: #d3d4d6;
 }
 
 body {
-	color: #000;
+	color: #030303;
 	text-align: center;
 	font-size: 1.3rem;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .site-title {
-	background-color: #F2F2F2;
+	background-color: #f0f1f4;
 	padding: 4%;
-	letter-spacing: 4px;
-	font-size: 2.7rem;
+	margin: 0 auto;
+	letter-spacing: 6px;
+	font-size: 2.3rem;
 	font-weight: 800;
 }
 
@@ -35,29 +41,69 @@ body {
 	width: 100px;
 	height: 1px;
 	margin: 0 20px;
-	background-color: #000;
+	background-color: #71777d;
 	vertical-align: middle;
 }
 
-.about .profiel{
-	width: 350px;
-	height: 350px;
-	border: 15px solid #D1D1D1;
-	border-radius: 20px;
-	vertical-align: middle;
-	}
-.about .about-text{
-	padding: 30px;
+.about {
+	background-color: #f0f1f4;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.box01 img{
+	width: 70%;
+	margin-bottom: 5px;
+	-webkit-filter:drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+ 	-moz-filter:drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+ 	-ms-filter:drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+ 	filter:drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+
+}
+.box01 p {
+	font-weight: 200;
+	letter-spacing: .1rem;
+}
+
+.box02 {
 	display: inline-block;
-	vertical-align: middle;
-	font-weight: 300;
-	margin-bottom: 40px;
+	height: 300px;
+	text-align:center;
 }
 
-ul {
+.content {
+	width: 250px;
+	height: 300px;
+	padding: 15px;
+	display: inline-block;
+	vertical-align:  middle;
+}
+
+.content a {
+	text-decoration: none;
+}
+
+
+ul{
 	list-style-type: none;
 	padding: 0;
 }
+
+li{
+	font-weight: 200;
+	letter-spacing: .1rem;
+	padding: 2px;
+}
+
+
+p.title {
+	letter-spacing: 3px;
+	font-weight: 400;
+	padding: 10px;
+	color: #2c3632;
+	border-bottom: 1px solid #71777d;
+}
+
 
 .pic{
 	display: inline-block;
@@ -68,9 +114,11 @@ ul {
 .pic a {
 	position: absolute;
 	font-size: 1.3rem;
-	letter-spacing: 2px;
+	letter-spacing: .5rem;
 	font-weight: 600;
-	color: #fff;
+	text-decoration: none;
+	transition: 1.0s;
+	color: #f0f1f4;
  	top: 50%;
  	left: 50%;
  	margin:0;
@@ -78,6 +126,9 @@ ul {
  	-ms-transform: translate(-50%,-50%);
  	-webkit-transform: translate(-50%,-50%);
  	transform: translate(-50%,-50%);
+}
+.pic a:hover {
+	color: #4d4c59;
 }
 .works img {
 	width: 100%;
@@ -89,7 +140,7 @@ ul {
 }
 
 .footer {
-	color: #B2B2B2;
+	color: #d3d4d6;
 	padding: 2%;
 	letter-spacing: 1px;
 	font-size: 0.7rem;
